@@ -32,5 +32,5 @@ rag_chain = (
     | StrOutputParser()
 )
 
-response = rag_chain.invoke({"What basketball player do you have information on?"})
+response = rag_chain.invoke({"How many points did Lebron James score on 4/29?"})
 print(response)
